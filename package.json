@@ -1,0 +1,22 @@
+{
+  "name": "atv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/test/index.test.ts",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.8",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
